@@ -2,8 +2,45 @@ svg {
 	width: 50%;
 }
 
-#img-court {
+#game {
+	width: 50%;
+	margin-top: 20px;
+}
+
+#game img {
+	margin: auto;
+	display: block;
+	width: 40%;
+}
+
+#court {
 	float: right;
+	width: 50%;
+	margin-top: 20px;
+}
+
+#court img {
+	width: 98%;
+	margin-top: -220px;
+	margin-left: -15px;
+}
+
+h2 {
+	text-align: center;
+	font-family: 'Bungee', cursive;
+	margin: auto;
+}
+
+h4 {
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	color: #A9A9A9;
+	font-weight: 700;
+	margin-top: 3px;
+}
+
+.title {
+	color: red;
 }
 
 /*==================================*/
