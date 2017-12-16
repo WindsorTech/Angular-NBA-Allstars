@@ -1,0 +1,65 @@
+svg {
+	width: 50%;
+}
+
+#game {
+	width: 50%;
+	margin-top: 20px;
+}
+
+#game img {
+	margin: auto;
+	display: block;
+	width: 40%;
+}
+
+#court {
+	float: right;
+	width: 50%;
+	margin-top: 20px;
+}
+
+#court img {
+	display: block;
+	width: 98%;
+	margin-top: -220px;
+	margin-left: -15px;
+}
+
+h2 {
+	text-align: center;
+	font-family: 'Bungee', cursive;
+	margin: auto;
+}
+
+h4 {
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	color: #A9A9A9;
+	font-weight: 700;
+	margin-top: 3px;
+}
+
+.title {
+	color: red;
+}
+
+/*==================================*/
+.shot-chart-court *{
+    fill:transparent;
+    stroke:#333;
+    stroke-width:0.1
+}
+.shot-chart-court-ft-circle-bottom{
+    stroke-dasharray:1.5, 1
+}
+.shot-chart-court-hoop,.shot-chart-court-backboard{
+    z-index:100
+}
+.shot-chart-title{
+    font-size:15%;
+    text-transform:uppercase
+}
+.legend text{
+    font-size:4%
+}

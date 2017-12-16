@@ -1,3 +1,5 @@
+// <svg></svg> in HTML
+
 opts = {
     // basketball hoop diameter (ft)
     basketDiameter: 1.5,

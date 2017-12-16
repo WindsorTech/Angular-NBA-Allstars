@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Angular NBA Allstars</title>
+
+		<meta name="description" content="Angular NBA Allstars">
+
+        <!-- Mobile Viewport -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+        <meta name="fragment" content="!">
+
+        <!-- Bootstrap CDN -->
+        <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/cerulean/bootstrap.min.css" rel="stylesheet" integrity="sha384-zF4BRsG/fLiTGfR9QL82DrilZxrwgY/+du4p/c7J72zZj+FLYq4zY00RylP9ZjiT" crossorigin="anonymous">
+
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
+
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+        <!-- Css Stylesheet -->
+        <link rel="stylesheet" href="nbaAllstars/layout/assets/styles/style.css">
+</head>
+<body ng-app="nbaAllstars">
+
+	<div id="game">
+		<h2>ANGULAR<h2>
+		<img src="nbaAllstars/layout/assets/images/nba-logo.jpg">
+		<h2 class="title">ALL-STARS</h2>
+		<h4>by WindsorTech</h4>
+
+		<!-- Main View -->
+        <ui-view></ui-view>
+        
+	</div>
+
+	<div id="court">
+		<img src="nbaAllstars/layout/assets/images/basketball-court.jpg">
+	</div>
+
+	<!-- JQuery Script -->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+
+	<!-- Script Graphic Basketball Court -->
+	<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+	<script src="nba.js"></script>
+</body>
+</html>
