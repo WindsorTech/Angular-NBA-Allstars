@@ -1,0 +1,23 @@
+{
+  "name": "angular-nba-allstars",
+  "version": "1.0.0",
+  "description": "Pick your favorite NBA All-Star Team!",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/windsor80/Angular-NBA-Allstars.git"
+  },
+  "author": "WindsorTech",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/windsor80/Angular-NBA-Allstars/issues"
+  },
+  "homepage": "https://github.com/windsor80/Angular-NBA-Allstars#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
