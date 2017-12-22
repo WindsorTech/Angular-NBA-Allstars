@@ -6,7 +6,7 @@ angular
         'ui.router',
 
         // Features - States
-        //'todoList.create',
+        'nbaAllstars.guards',
         //'todoList.list',
         //'todoList.completed'
     ])
@@ -14,6 +14,6 @@ angular
 
 function appConfig($urlRouterProvider) {
 
-    // Direct the app the /create state
-    $urlRouterProvider.otherwise('/create');
+    // Direct the app the a page (state)
+    $urlRouterProvider.otherwise('/guards');
 }

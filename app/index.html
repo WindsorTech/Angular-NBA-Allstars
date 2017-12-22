@@ -13,30 +13,28 @@
         <!-- Bootstrap CDN -->
         <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/cerulean/bootstrap.min.css" rel="stylesheet" integrity="sha384-zF4BRsG/fLiTGfR9QL82DrilZxrwgY/+du4p/c7J72zZj+FLYq4zY00RylP9ZjiT" crossorigin="anonymous">
 
+        <!-- Bootstrap CDN -->
+        <link href="https://maxcdn.bootstrapcdn.com/bootswatch/4.0.0-beta.2/spacelab/bootstrap.min.css" rel="stylesheet" integrity="sha384-XnJ+ECa6Sjobnj1S2MSpiH4NIeXBFS5JGx3OhuVqjRzQnhWjjuBw3RRgQy6OOBIC" crossorigin="anonymous">
+
         <!-- Google Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
 
         <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+
+        <!-- Angular Scripts -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular.min.js"></script>
+
+        <!-- Angular UI Router -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.4.2/angular-ui-router.min.js"></script>
 
         <!-- Css Stylesheet -->
         <link rel="stylesheet" href="nbaAllstars/layout/assets/styles/style.css">
 </head>
 <body ng-app="nbaAllstars">
 
-	<div id="game">
-		<h2>ANGULAR<h2>
-		<img src="nbaAllstars/layout/assets/images/nba-logo.jpg">
-		<h2 class="title">ALL-STARS</h2>
-		<h4>by WindsorTech</h4>
-
-		<!-- Main View -->
-        <ui-view></ui-view>
-
-	</div>
-
-	<div id="court">
-		<img src="nbaAllstars/layout/assets/images/basketball-court.jpg">
-	</div>
+	<!-- Main View -->
+    <ui-view></ui-view>
 
 	<!-- JQuery Script -->
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
@@ -45,7 +43,14 @@
 	<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
 	<!--<script src="nba.js"></script>-->
 
-	<!-- Scripts of the MAIN Module File-->
-    <script src="nbaAllstars/nbaAllstars.module.js"></script>
+		<!-- Scripts of the MAIN Module File-->
+    	<script src="nbaAllstars/nbaAllstars.module.js"></script>
+
+        <!-- Scripts of the Guards state -->
+        <script src="nbaAllstars/features/guards/guards.module.js"></script>
+        <script src="nbaAllstars/features/guards/guards.controller.js"></script>
+        <script src="nbaAllstars/features/guards/guards.route.js"></script>
+
+
 </body>
 </html>
