@@ -29,12 +29,15 @@ svg {
 h2 {
 	text-align: center;
 	font-family: 'Bungee', cursive;
+	font-size: 28px;
 	margin: auto;
+	color: #0000cc;
 }
 
 h4 {
 	text-align: center;
 	font-family: 'Montserrat', sans-serif;
+	font-size: 17px;
 	color: #A9A9A9;
 	font-weight: 700;
 	margin-top: 3px;
@@ -45,16 +48,17 @@ h4 {
 }
 
 .nav-pills {
-	margin-top: 10px;
+	margin-top: 20px;
 	text-align: center;
 	font-family: 'Bungee', cursive;
 	font-size: 18px;
-}
-
-.nav-link {
 	color: #446E9B;
 }
 
+ul {
+    width: 70%;
+    margin: auto;
+}
 
 
 /*=========BASKETBALL COURT=================*/
