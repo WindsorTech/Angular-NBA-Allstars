@@ -7,6 +7,7 @@ angular
 
         // Features - States
         'nbaAllstars.guards',
+        'nbaAllstars.forwards'
         //'todoList.list',
         //'todoList.completed'
     ])
