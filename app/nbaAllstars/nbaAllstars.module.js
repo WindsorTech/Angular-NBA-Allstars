@@ -7,9 +7,9 @@ angular
 
         // Features - States
         'nbaAllstars.guards',
-        'nbaAllstars.forwards'
-        //'todoList.list',
-        //'todoList.completed'
+        'nbaAllstars.forwards',
+        'nbaAllstars.centers'
+        
     ])
     .config(appConfig);
 

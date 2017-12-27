@@ -64,6 +64,17 @@ ul {
     margin: auto;
 }
 
+.btn-group-vertical {
+	margin-top: 20px;
+	width: 100%;
+}
+
+.btn-primary {
+	font-size: 20px;
+	font-family: 'Ubuntu', sans-serif;
+	margin-bottom: 5px;
+}
+
 
 /*=========BASKETBALL COURT=================*/
 /*==========================================*/
