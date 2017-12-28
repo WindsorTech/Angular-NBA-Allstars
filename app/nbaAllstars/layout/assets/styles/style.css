@@ -22,8 +22,12 @@ svg {
 #court img {
 	display: block;
 	width: 98%;
-	margin-top: -220px;
+	margin-top: -450px;
 	margin-left: -15px;
+}
+
+.title {
+	color: red;
 }
 
 h2 {
@@ -41,14 +45,12 @@ h4 {
 	color: #A9A9A9;
 	font-weight: 700;
 	margin-top: 3px;
-}
-
-.title {
-	color: red;
+	margin-bottom: 20px;
 }
 
 .nav-pills {
-	margin-top: 20px;
+	width: 70%;
+    margin: auto;
 	text-align: center;
 	font-family: 'Bungee', cursive;
 	font-size: 18px;
@@ -59,20 +61,18 @@ h4 {
 	color: #446E9B;	
 }
 
-ul {
-    width: 70%;
-    margin: auto;
-}
-
-.btn-group-vertical {
-	margin-top: 20px;
-	width: 100%;
-}
-
 .btn-outline-primary {
+	width: 80%;
 	font-size: 20px;
 	font-family: 'Ubuntu', sans-serif;
 	margin-bottom: 5px;
+}
+
+.player-list {
+	display: block;
+	margin: auto;
+	width: 75%;
+	margin-top: 20px;
 }
 
 
