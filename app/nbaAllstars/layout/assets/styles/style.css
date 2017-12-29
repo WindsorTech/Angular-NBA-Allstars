@@ -61,11 +61,20 @@ h4 {
 	color: #446E9B;	
 }
 
-.btn-outline-primary {
+.btn-primary {
 	width: 80%;
 	font-size: 20px;
 	font-family: 'Ubuntu', sans-serif;
 	margin-bottom: 5px;
+	color: white;
+}
+
+.btn-success {
+	width: 80%;
+	font-size: 20px;
+	font-family: 'Ubuntu', sans-serif;
+	margin-bottom: 5px;
+	color: white;
 }
 
 .player-list {
