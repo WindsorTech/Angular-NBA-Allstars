@@ -9,6 +9,4 @@ function GuardsCtrl($scope) {
     	$(this).toggleClass('btn-success');
     });
 
-
-
 }
