@@ -18,6 +18,8 @@ function NbaPlayer() {
 function NbaPlayerCtrl($scope) {
 	var vm = this;
 
+	$('#curry').hide();
+
 	// // property to show or hide edit screen
 	// $scope.edit = false;
 
