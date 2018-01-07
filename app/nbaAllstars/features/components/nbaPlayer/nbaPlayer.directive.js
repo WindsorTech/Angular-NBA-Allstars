@@ -15,10 +15,17 @@ function NbaPlayer() {
 	}
 }
 
-function NbaPlayerCtrl($scope) {
+function NbaPlayerCtrl() {
 	var vm = this;
 
-	$('#curry').hide();
+	// Hide players pics - Guards
+	$('#thomas-pic').hide();
+	$('#bryant-pic').hide();
+	$('#johnson-pic').hide();
+	$('#jordan-pic').hide();
+	$('#curry-pic').hide();
+
+
 
 	// // property to show or hide edit screen
 	// $scope.edit = false;

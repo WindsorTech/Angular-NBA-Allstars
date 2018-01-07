@@ -2,19 +2,35 @@ angular
     .module('nbaAllstars.guards') 
     .controller('GuardsCtrl', GuardsCtrl);
 
-function GuardsCtrl($scope) {
+function GuardsCtrl() {
     var vm = this; 
 
-    $(".btn").click(function(){
+    // Show Michael Jordan pic on click
+    $("#jordan-btn").click(function(){
     	$(this).toggleClass('btn-success');
 
     	if ( $(this).hasClass('btn-success') ) {
 		
-		$('#curry').show();
+		$('#jordan-pic').show();
 
 		} else if ( $(this).hasClass('btn-primary') ) {
 
-		$('#curry').hide();
+		$('#jordan-pic').hide();
+
+		}
+    });
+
+    // Show Stephen Curry pic on click
+    $("#curry-btn").click(function(){
+    	$(this).toggleClass('btn-success');
+
+    	if ( $(this).hasClass('btn-success') ) {
+		
+		$('#curry-pic').show();
+
+		} else if ( $(this).hasClass('btn-primary') ) {
+
+		$('#curry-pic').hide();
 
 		}
     });
