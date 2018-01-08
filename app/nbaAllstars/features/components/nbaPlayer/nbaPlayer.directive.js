@@ -19,11 +19,11 @@ function NbaPlayerCtrl() {
 	var vm = this;
 
 	// Hide players pics - Guards
-	$('#thomas-pic').hide();
+	$('#jordan-pic').hide();
 	$('#bryant-pic').hide();
 	$('#johnson-pic').hide();
-	$('#jordan-pic').hide();
 	$('#curry-pic').hide();
+	$('#thomas-pic').hide();
 
 
 
