@@ -25,6 +25,20 @@ function NbaPlayerCtrl() {
 	$('#curry-pic').hide();
 	$('#thomas-pic').hide();
 
+	// Hide players pics - Forwards
+	$('#bird-pic').hide();
+	$('#pippen-pic').hide();
+	$('#james-pic').hide();
+	$('#duncan-pic').hide();
+	$('#barkley-pic').hide();
+
+	// Hide players pics - Centers
+	$('#russell-pic').hide();
+	$('#jabbar-pic').hide();
+	$('#oneal-pic').hide();
+	$('#chamberlain-pic').hide();
+	$('#ewing-pic').hide();
+
 
 
 	// // property to show or hide edit screen
