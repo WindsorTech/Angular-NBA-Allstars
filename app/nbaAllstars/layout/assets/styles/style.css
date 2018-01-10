@@ -22,12 +22,29 @@ svg {
 .court-image {
 	display: block;
 	width: 98%;
-	margin-top: -450px;
+	margin-top: -540px;
 	margin-left: -15px;
 }
 
 .title {
 	color: red;
+}
+
+.sub-title {
+	font-size: 19px;
+	font-family: 'Ubuntu', sans-serif;
+	color: #8e8f91;
+}
+
+.instructions {
+	font-size: 18px;
+	font-family: 'Ubuntu', sans-serif;
+	color: #446E9B; /*#9ea0a3;*/	
+}
+
+hr {
+	background-color: #446E9B;
+	width: 70%;
 }
 
 h2 {
@@ -42,11 +59,18 @@ h4 {
 	text-align: center;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 17px;
-	color: #A9A9A9;
+	color: black; /*#A9A9A9; */
 	font-weight: 700;
 	margin-top: 3px;
 	margin-bottom: 20px;
 }
+
+.well {
+	border-color: #446E9B;
+	border-width: 1.5px;
+	background: white;
+}
+
 
 .nav-pills {
 	width: 70%;
@@ -81,7 +105,7 @@ h4 {
 	display: block;
 	margin: auto;
 	width: 75%;
-	margin-top: 20px;
+	margin-top: 10px;
 }
 
 .players-pics {
