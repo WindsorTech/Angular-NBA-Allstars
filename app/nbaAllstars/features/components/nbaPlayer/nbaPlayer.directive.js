@@ -18,12 +18,6 @@ function NbaPlayer() {
 function NbaPlayerCtrl() {
 	var vm = this;
 
-	// Hide players pics - Guards
-	
-	$('#johnson-pic').hide();
-	$('#curry-pic').hide();
-	$('#thomas-pic').hide();
-
 	// Hide players pics - Forwards
 	$('#bird-pic').hide();
 	$('#pippen-pic').hide();
