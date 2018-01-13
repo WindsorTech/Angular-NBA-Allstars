@@ -8,7 +8,15 @@ function GuardsCtrl() {
     // Show Michael Jordan pic on click
     $("#jordan-btn").click(function(){
 
-        $(this).toggleClass('btn-success');
+        if ( $('#guard-1').hasClass('empty') || $('#guard-2').hasClass('empty') ) {
+
+            $(this).toggleClass('btn-success');
+
+        } else if ($('#guard-1').hasClass('jordan') || $('#guard-2').hasClass('jordan') ) {
+
+            $(this).toggleClass('btn-success');
+
+        }
             
     	if ( $(this).hasClass('btn-success') ) {
 
@@ -55,7 +63,15 @@ function GuardsCtrl() {
     // Show Kobe Bryant pic on click 
     $("#bryant-btn").click(function(){
 
-        $(this).toggleClass('btn-success');
+        if ( $('#guard-1').hasClass('empty') || $('#guard-2').hasClass('empty') ) {
+
+            $(this).toggleClass('btn-success');
+
+        } else if ($('#guard-1').hasClass('bryant') || $('#guard-2').hasClass('bryant') ) {
+
+            $(this).toggleClass('btn-success');
+
+        }
 
         if ( $(this).hasClass('btn-success') ) {
 
@@ -100,7 +116,15 @@ function GuardsCtrl() {
     // Show Magic Johnson pic on click
     $("#johnson-btn").click(function(){
 
-        $(this).toggleClass('btn-success');
+        if ( $('#guard-1').hasClass('empty') || $('#guard-2').hasClass('empty') ) {
+
+            $(this).toggleClass('btn-success');
+
+        } else if ($('#guard-1').hasClass('johnson') || $('#guard-2').hasClass('johnson') ) {
+
+            $(this).toggleClass('btn-success');
+
+        }
 
         if ( $(this).hasClass('btn-success') ) {
 
@@ -145,7 +169,15 @@ function GuardsCtrl() {
     // Show Stephen Curry pic on click
     $("#curry-btn").click(function(){
 
-        $(this).toggleClass('btn-success');
+        if ( $('#guard-1').hasClass('empty') || $('#guard-2').hasClass('empty') ) {
+
+            $(this).toggleClass('btn-success');
+
+        } else if ($('#guard-1').hasClass('curry') || $('#guard-2').hasClass('curry') ) {
+
+            $(this).toggleClass('btn-success');
+
+        }
 
         if ( $(this).hasClass('btn-success') ) {
 
@@ -190,7 +222,15 @@ function GuardsCtrl() {
     // Show Isiah Thomas pic on click
     $("#thomas-btn").click(function(){
 
-        $(this).toggleClass('btn-success');
+        if ( $('#guard-1').hasClass('empty') || $('#guard-2').hasClass('empty') ) {
+
+            $(this).toggleClass('btn-success');
+
+        } else if ($('#guard-1').hasClass('thomas') || $('#guard-2').hasClass('thomas') ) {
+
+            $(this).toggleClass('btn-success');
+
+        }
 
         if ( $(this).hasClass('btn-success') ) {
 
