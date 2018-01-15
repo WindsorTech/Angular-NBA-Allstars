@@ -15,15 +15,10 @@ function NbaPlayer() {
 	}
 }
 
-function NbaPlayerCtrl() {
+function NbaPlayerCtrl($scope) {
 	var vm = this;
 
-	// Hide players pics - Forwards
-	$('#bird-pic').hide();
-	$('#pippen-pic').hide();
-	$('#james-pic').hide();
-	$('#duncan-pic').hide();
-	$('#barkley-pic').hide();
+	
 
 	// Hide players pics - Centers
 	$('#russell-pic').hide();

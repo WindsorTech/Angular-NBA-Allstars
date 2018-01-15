@@ -112,7 +112,6 @@ h4 {
 }
 
 #guard-1 {
-	
 	margin-top: -300px;
 	margin-left: 30px;
 	position: absolute;
@@ -122,6 +121,19 @@ h4 {
 	width: 35%;
 	margin-top: -300px;
 	margin-left: 430px;
+	position: relative;
+}
+
+#forward-1 {
+	margin-top: 190px;
+	margin-left: 60px;
+	position: absolute;
+}
+
+#forward-2 {
+	width: 35%;
+	margin-top: 190px;
+	margin-left: 395px;
 	position: relative;
 }
 
