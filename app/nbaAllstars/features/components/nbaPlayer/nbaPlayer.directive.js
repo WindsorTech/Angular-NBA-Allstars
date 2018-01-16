@@ -6,7 +6,7 @@ function NbaPlayer() {
 	return  {
 		restrict: 'E',
 		scope: {
-			taskData: '=' 
+			taskData: '=' /// CHANGE THAT - nbaData
 		},
 		templateUrl: '/nbaAllstars/features/components/nbaPlayer/nbaPlayer.html',
 		controller: NbaPlayerCtrl,
@@ -20,12 +20,7 @@ function NbaPlayerCtrl($scope) {
 
 	
 
-	// Hide players pics - Centers
-	$('#russell-pic').hide();
-	$('#jabbar-pic').hide();
-	$('#oneal-pic').hide();
-	$('#chamberlain-pic').hide();
-	$('#ewing-pic').hide();
+	
 
 
 
