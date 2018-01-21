@@ -13,33 +13,64 @@
 
 		<ul class="nav nav-pills">
 		  <li class="nav-item">
-		    <a class="nav-link active" ui-sref="guards">Guards</a>
+		    <a class="nav-link active" id="guards-link">Guards</a>
 		  </li>
 
 		  <li class="nav-item">
-		    <a class="nav-link" ui-sref="forwards">Forwards</a>
+		    <a class="nav-link" id="forwards-link">Forwards</a>
 		  </li>
 
 		  <li class="nav-item">
-		    <a class="nav-link" ui-sref="centers">Centers</a>
+		    <a class="nav-link" id="centers-link">Centers</a>
 		  </li>
 
 		</ul>
 
-		<p class="instructions" align="center">Select 2 Guards</p>
+		<div id="guards-list">
+			<p class="instructions" align="center">Select 2 Guards</p>
+			<ul class="player-list">
+		  	<input type="button" value="Michael Jordan" class="btn btn-primary" id="jordan-btn">
+			<br>
+		  	<input type="button" value="Kobe Bryant" class="btn btn-primary" id="bryant-btn">
+			<br>
+		  	<input type="button" value="Magic Johnson" class="btn btn-primary" id="johnson-btn">
+			<br>
+		  	<input type="button" value="Stephen Curry" class="btn btn-primary" id="curry-btn">
+			<br>
+		  	<input type="button" value="Isiah Thomas" class="btn btn-primary" id="thomas-btn">
+			</ul>
+		</div>
 
-		<ul class="player-list">
-		  <button type="button" class="btn btn-primary" id="jordan-btn">Michael Jordan</button>
-		<br>
-		  <button type="button" class="btn btn-primary" id="bryant-btn">Kobe Bryant</button>
-		<br>
-		  <button type="button" class="btn btn-primary" id="johnson-btn">Magic Johnson</button>
-		<br>
-		  <button type="button" class="btn btn-primary" id="curry-btn">Stephen Curry</button>
-		<br>
-		  <button type="button" class="btn btn-primary" id="thomas-btn">Isiah Thomas</button>
-		</ul>
-		 
+		<div id="forwards-list">
+			<p class="instructions" align="center">Select 2 Forwards</p>
+			<ul class="player-list">
+		  	<input type="button" value="Larry Bird" class="btn btn-primary" id="bird-btn">
+			<br>
+		  	<input type="button" value="Scottie Pippen" class="btn btn-primary" id="pippen-btn">
+			<br>
+		 	<input type="button" value="LeBron James" class="btn btn-primary" id="james-btn">
+			<br>
+		  	<input type="button" value="Tim Duncan" class="btn btn-primary" id="duncan-btn">
+			<br>
+		  	<input type="button" value="Charles Barkley" class="btn btn-primary" id="barkley-btn">
+			</ul>
+		</div>
+
+		<div id="centers-list">
+			<p class="instructions" align="center">Select 1 Center</p>
+			<ul class="player-list">
+		  	<input type="button" value="Bill Russell" class="btn btn-primary" id="russell-btn">
+			<br>
+		  	<input type="button" value="Kareem Abdul-Jabbar" class="btn btn-primary" id="jabbar-btn">
+			<br>
+		  	<input type="button" value="Shaquille O'Neal" class="btn btn-primary" id="oneal-btn">
+			<br>
+		  	<input type="button" value="Wilt Chamberlain" class="btn btn-primary" id="chamberlain-btn">
+			<br>
+		  	<input type="button" value="Patrick Ewing" class="btn btn-primary" id="ewing-btn">
+			</ul>
+		</div>
+
 	</div>
 
 	<div id="court">

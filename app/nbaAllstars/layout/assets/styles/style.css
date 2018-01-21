@@ -70,7 +70,6 @@ h4 {
 	background: white;
 }
 
-
 .nav-pills {
 	width: 70%;
     margin: auto;
@@ -80,8 +79,8 @@ h4 {
 	color: #446E9B;
 }
 
-.nav-link {
-	color: #446E9B;	
+.nav-item a.active:hover { 
+	color: white;
 }
 
 .btn-primary {

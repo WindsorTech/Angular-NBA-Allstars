@@ -6,9 +6,9 @@ angular
         'ui.router',
 
         // Features - States
-        'nbaAllstars.guards',
-        'nbaAllstars.forwards',
-        'nbaAllstars.centers'
+        'nbaAllstars.guards'
+        //'nbaAllstars.forwards',
+        //'nbaAllstars.centers'
         
     ])
     .config(appConfig);

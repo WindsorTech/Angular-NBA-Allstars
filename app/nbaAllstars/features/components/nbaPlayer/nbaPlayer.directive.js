@@ -17,7 +17,6 @@ function NbaPlayer() {
 
 function NbaPlayerCtrl($scope) {
 	var vm = this;
-
 	
 
 }

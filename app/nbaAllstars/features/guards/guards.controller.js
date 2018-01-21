@@ -5,6 +5,44 @@ angular
 function GuardsCtrl() {
     var vm = this; 
 
+    // Start screen showing Guards list
+    $('#guards-list').show();
+    $('#forwards-list').hide();
+    $('#centers-list').hide();
+
+    /// Menu Select Functions ///
+    $("#guards-link").click(function(){
+        $('#guards-link').addClass('active');
+        $('#forwards-link').removeClass('active');
+        $('#centers-link').removeClass('active');
+
+        $('#guards-list').show();
+        $('#forwards-list').hide();
+        $('#centers-list').hide();
+    });
+
+    $("#forwards-link").click(function(){
+        $('#guards-link').removeClass('active');
+        $('#forwards-link').addClass('active');
+        $('#centers-link').removeClass('active');
+
+        $('#guards-list').hide();
+        $('#forwards-list').show();
+        $('#centers-list').hide();
+    });
+
+    $("#centers-link").click(function(){
+        $('#guards-link').removeClass('active');
+        $('#forwards-link').removeClass('active');
+        $('#centers-link').addClass('active');
+
+        $('#guards-list').hide();
+        $('#forwards-list').hide();
+        $('#centers-list').show();
+    });
+
+    ////////////// GUARD PLAYERS FUNCTIONS /////////////
+
     // Show Michael Jordan pic on click
     $("#jordan-btn").click(function(){
 
@@ -271,5 +309,480 @@ function GuardsCtrl() {
 
         }
     });
+
+    ////////////// FORWARD PLAYERS FUNCTIONS /////////////
+
+        // Show Larry Bird pic on click
+    $("#bird-btn").click(function(){
+
+        if ( $('#forward-1').hasClass('empty') || $('#forward-2').hasClass('empty') ) {
+
+            $(this).toggleClass('btn-success');
+
+        } else if ($('#forward-1').hasClass('bird') || $('#forward-2').hasClass('bird') ) {
+
+            $(this).toggleClass('btn-success');
+
+        }
+            
+        if ( $(this).hasClass('btn-success') ) {
+
+            if ( $('#forward-1').hasClass('empty') ) {
+
+                $('#forward-1').html('<img src="nbaAllstars/layout/assets/images/players/larry-bird.png" id="bird-pic" class="players-pics">');
+                $('#forward-1').removeClass('empty');
+                $('#forward-1').addClass('full');
+                $('#forward-1').addClass('bird');
+
+            } else if ( $('#forward-1').hasClass('full') ) {
+
+                $('#forward-2').html('<img src="nbaAllstars/layout/assets/images/players/larry-bird.png" id="bird-pic" class="players-pics">');
+                $('#forward-2').removeClass('empty');
+                $('#forward-2').addClass('full');
+                $('#forward-2').addClass('bird');
+
+            }
+        
+        } else if ( $(this).hasClass('btn-primary') ) {
+
+            if ( $('#forward-1').hasClass('full') && $('#forward-1').hasClass('bird') ) {
+
+                $('#bird-pic').hide();
+                $('#forward-1').removeClass('full');
+                $('#forward-1').removeClass('bird');
+                $('#forward-1').addClass('empty');
+
+
+            } else if ( $('#forward-2').hasClass('full') && $('#forward-2').hasClass('bird') ) {
+
+                $('#bird-pic').hide();
+                $('#forward-2').removeClass('full');
+                $('#forward-2').removeClass('bird');
+                $('#forward-2').addClass('empty');
+
+            }
+
+        }
+
+    });
+
+
+    // Show Scottie Pippen pic on click
+    $("#pippen-btn").click(function(){
+
+        if ( $('#forward-1').hasClass('empty') || $('#forward-2').hasClass('empty') ) {
+
+            $(this).toggleClass('btn-success');
+
+        } else if ($('#forward-1').hasClass('pippen') || $('#forward-2').hasClass('pippen') ) {
+
+            $(this).toggleClass('btn-success');
+
+        }
+            
+        if ( $(this).hasClass('btn-success') ) {
+
+            if ( $('#forward-1').hasClass('empty') ) {
+
+                $('#forward-1').html('<img src="nbaAllstars/layout/assets/images/players/scottie-pippen.png" id="pippen-pic" class="players-pics">');
+                $('#forward-1').removeClass('empty');
+                $('#forward-1').addClass('full');
+                $('#forward-1').addClass('pippen');
+
+            } else if ( $('#forward-1').hasClass('full') ) {
+
+                $('#forward-2').html('<img src="nbaAllstars/layout/assets/images/players/scottie-pippen.png" id="pippen-pic" class="players-pics">');
+                $('#forward-2').removeClass('empty');
+                $('#forward-2').addClass('full');
+                $('#forward-2').addClass('pippen');
+
+            }
+        
+        } else if ( $(this).hasClass('btn-primary') ) {
+
+            if ( $('#forward-1').hasClass('full') && $('#forward-1').hasClass('pippen') ) {
+
+                $('#pippen-pic').hide();
+                $('#forward-1').removeClass('full');
+                $('#forward-1').removeClass('pippen');
+                $('#forward-1').addClass('empty');
+
+
+            } else if ( $('#forward-2').hasClass('full') && $('#forward-2').hasClass('pippen') ) {
+
+                $('#pippen-pic').hide();
+                $('#forward-2').removeClass('full');
+                $('#forward-2').removeClass('pippen');
+                $('#forward-2').addClass('empty');
+
+            }
+
+        }
+
+    });
+
+
+    // Show LeBron James pic on click
+    $("#james-btn").click(function(){
+
+        if ( $('#forward-1').hasClass('empty') || $('#forward-2').hasClass('empty') ) {
+
+            $(this).toggleClass('btn-success');
+
+        } else if ($('#forward-1').hasClass('james') || $('#forward-2').hasClass('james') ) {
+
+            $(this).toggleClass('btn-success');
+
+        }
+            
+        if ( $(this).hasClass('btn-success') ) {
+
+            if ( $('#forward-1').hasClass('empty') ) {
+
+                $('#forward-1').html('<img src="nbaAllstars/layout/assets/images/players/lebron-james.png" id="james-pic" class="players-pics">');
+                $('#forward-1').removeClass('empty');
+                $('#forward-1').addClass('full');
+                $('#forward-1').addClass('james');
+
+            } else if ( $('#forward-1').hasClass('full') ) {
+
+                $('#forward-2').html('<img src="nbaAllstars/layout/assets/images/players/lebron-james.png" id="james-pic" class="players-pics">');
+                $('#forward-2').removeClass('empty');
+                $('#forward-2').addClass('full');
+                $('#forward-2').addClass('james');
+
+            }
+        
+        } else if ( $(this).hasClass('btn-primary') ) {
+
+            if ( $('#forward-1').hasClass('full') && $('#forward-1').hasClass('james') ) {
+
+                $('#james-pic').hide();
+                $('#forward-1').removeClass('full');
+                $('#forward-1').removeClass('james');
+                $('#forward-1').addClass('empty');
+
+
+            } else if ( $('#forward-2').hasClass('full') && $('#forward-2').hasClass('james') ) {
+
+                $('#james-pic').hide();
+                $('#forward-2').removeClass('full');
+                $('#forward-2').removeClass('james');
+                $('#forward-2').addClass('empty');
+
+            }
+
+        }
+
+    });
+
+    
+    // Show Tim Duncan pic on click
+    $("#duncan-btn").click(function(){
+
+        if ( $('#forward-1').hasClass('empty') || $('#forward-2').hasClass('empty') ) {
+
+            $(this).toggleClass('btn-success');
+
+        } else if ($('#forward-1').hasClass('duncan') || $('#forward-2').hasClass('duncan') ) {
+
+            $(this).toggleClass('btn-success');
+
+        }
+            
+        if ( $(this).hasClass('btn-success') ) {
+
+            if ( $('#forward-1').hasClass('empty') ) {
+
+                $('#forward-1').html('<img src="nbaAllstars/layout/assets/images/players/tim-duncan.png" id="duncan-pic" class="players-pics">');
+                $('#forward-1').removeClass('empty');
+                $('#forward-1').addClass('full');
+                $('#forward-1').addClass('duncan');
+
+            } else if ( $('#forward-1').hasClass('full') ) {
+
+                $('#forward-2').html('<img src="nbaAllstars/layout/assets/images/players/tim-duncan.png" id="duncan-pic" class="players-pics">');
+                $('#forward-2').removeClass('empty');
+                $('#forward-2').addClass('full');
+                $('#forward-2').addClass('duncan');
+
+            }
+        
+        } else if ( $(this).hasClass('btn-primary') ) {
+
+            if ( $('#forward-1').hasClass('full') && $('#forward-1').hasClass('duncan') ) {
+
+                $('#duncan-pic').hide();
+                $('#forward-1').removeClass('full');
+                $('#forward-1').removeClass('duncan');
+                $('#forward-1').addClass('empty');
+
+
+            } else if ( $('#forward-2').hasClass('full') && $('#forward-2').hasClass('duncan') ) {
+
+                $('#duncan-pic').hide();
+                $('#forward-2').removeClass('full');
+                $('#forward-2').removeClass('duncan');
+                $('#forward-2').addClass('empty');
+
+            }
+
+        }
+
+    });
+
+
+    // Show Charles Barkley pic on click
+    $("#barkley-btn").click(function(){
+
+        if ( $('#forward-1').hasClass('empty') || $('#forward-2').hasClass('empty') ) {
+
+            $(this).toggleClass('btn-success');
+
+        } else if ($('#forward-1').hasClass('barkley') || $('#forward-2').hasClass('barkley') ) {
+
+            $(this).toggleClass('btn-success');
+
+        }
+            
+        if ( $(this).hasClass('btn-success') ) {
+
+            if ( $('#forward-1').hasClass('empty') ) {
+
+                $('#forward-1').html('<img src="nbaAllstars/layout/assets/images/players/charles-barkley.png" id="barkley-pic" class="players-pics">');
+                $('#forward-1').removeClass('empty');
+                $('#forward-1').addClass('full');
+                $('#forward-1').addClass('barkley');
+
+            } else if ( $('#forward-1').hasClass('full') ) {
+
+                $('#forward-2').html('<img src="nbaAllstars/layout/assets/images/players/charles-barkley.png" id="barkley-pic" class="players-pics">');
+                $('#forward-2').removeClass('empty');
+                $('#forward-2').addClass('full');
+                $('#forward-2').addClass('barkley');
+
+            }
+        
+        } else if ( $(this).hasClass('btn-primary') ) {
+
+            if ( $('#forward-1').hasClass('full') && $('#forward-1').hasClass('barkley') ) {
+
+                $('#barkley-pic').hide();
+                $('#forward-1').removeClass('full');
+                $('#forward-1').removeClass('barkley');
+                $('#forward-1').addClass('empty');
+
+
+            } else if ( $('#forward-2').hasClass('full') && $('#forward-2').hasClass('barkley') ) {
+
+                $('#barkley-pic').hide();
+                $('#forward-2').removeClass('full');
+                $('#forward-2').removeClass('barkley');
+                $('#forward-2').addClass('empty');
+
+            }
+
+        }
+
+    });
+
+    ////////////// CENTER PLAYERS FUNCTIONS /////////////
+
+        // Show Bill Russell pic on click
+    $("#russell-btn").click(function(){
+
+        if ( $('#center-1').hasClass('empty') ) {
+
+            $(this).toggleClass('btn-success');
+
+        } else if ($('#center-1').hasClass('russell') ) {
+
+            $(this).toggleClass('btn-success');
+
+        }
+            
+        if ( $(this).hasClass('btn-success') ) {
+
+            if ( $('#center-1').hasClass('empty') ) {
+
+                $('#center-1').html('<img src="nbaAllstars/layout/assets/images/players/bill-russell.png" id="russell-pic" class="players-pics">');
+                $('#center-1').removeClass('empty');
+                $('#center-1').addClass('full');
+                $('#center-1').addClass('russell');
+
+            } 
+        
+        } else if ( $(this).hasClass('btn-primary') ) {
+
+            if ( $('#center-1').hasClass('full') && $('#center-1').hasClass('russell') ) {
+
+                $('#russell-pic').hide();
+                $('#center-1').removeClass('full');
+                $('#center-1').removeClass('russell');
+                $('#center-1').addClass('empty');
+
+            } 
+
+        }
+
+    });
+
+    // Show Kareem Adbul-Jabbar pic on click
+    $("#jabbar-btn").click(function(){
+
+        if ( $('#center-1').hasClass('empty') ) {
+
+            $(this).toggleClass('btn-success');
+
+        } else if ($('#center-1').hasClass('jabbar') ) {
+
+            $(this).toggleClass('btn-success');
+
+        }
+            
+        if ( $(this).hasClass('btn-success') ) {
+
+            if ( $('#center-1').hasClass('empty') ) {
+
+                $('#center-1').html('<img src="nbaAllstars/layout/assets/images/players/kareem-abdul-jabbar.png" id="jabbar-pic" class="players-pics">');
+                $('#center-1').removeClass('empty');
+                $('#center-1').addClass('full');
+                $('#center-1').addClass('jabbar');
+
+            } 
+        
+        } else if ( $(this).hasClass('btn-primary') ) {
+
+            if ( $('#center-1').hasClass('full') && $('#center-1').hasClass('jabbar') ) {
+
+                $('#jabbar-pic').hide();
+                $('#center-1').removeClass('full');
+                $('#center-1').removeClass('jabbar');
+                $('#center-1').addClass('empty');
+
+            } 
+
+        }
+
+    });
+
+    // Show Shaquille O'Neal pic on click
+    $("#oneal-btn").click(function(){
+
+        if ( $('#center-1').hasClass('empty') ) {
+
+            $(this).toggleClass('btn-success');
+
+        } else if ($('#center-1').hasClass('oneal') ) {
+
+            $(this).toggleClass('btn-success');
+
+        }
+            
+        if ( $(this).hasClass('btn-success') ) {
+
+            if ( $('#center-1').hasClass('empty') ) {
+
+                $('#center-1').html('<img src="nbaAllstars/layout/assets/images/players/shaquille-oneal.png" id="oneal-pic" class="players-pics">');
+                $('#center-1').removeClass('empty');
+                $('#center-1').addClass('full');
+                $('#center-1').addClass('oneal');
+
+            } 
+        
+        } else if ( $(this).hasClass('btn-primary') ) {
+
+            if ( $('#center-1').hasClass('full') && $('#center-1').hasClass('oneal') ) {
+
+                $('#oneal-pic').hide();
+                $('#center-1').removeClass('full');
+                $('#center-1').removeClass('oneal');
+                $('#center-1').addClass('empty');
+
+            } 
+
+        }
+
+    });
+
+    // Show Wilt Chamberlain pic on click
+    $("#chamberlain-btn").click(function(){
+
+        if ( $('#center-1').hasClass('empty') ) {
+
+            $(this).toggleClass('btn-success');
+
+        } else if ($('#center-1').hasClass('chamberlain') ) {
+
+            $(this).toggleClass('btn-success');
+
+        }
+            
+        if ( $(this).hasClass('btn-success') ) {
+
+            if ( $('#center-1').hasClass('empty') ) {
+
+                $('#center-1').html('<img src="nbaAllstars/layout/assets/images/players/wilt-chamberlain.png" id="chamberlain-pic" class="players-pics">');
+                $('#center-1').removeClass('empty');
+                $('#center-1').addClass('full');
+                $('#center-1').addClass('chamberlain');
+
+            } 
+        
+        } else if ( $(this).hasClass('btn-primary') ) {
+
+            if ( $('#center-1').hasClass('full') && $('#center-1').hasClass('chamberlain') ) {
+
+                $('#chamberlain-pic').hide();
+                $('#center-1').removeClass('full');
+                $('#center-1').removeClass('chamberlain');
+                $('#center-1').addClass('empty');
+
+            } 
+
+        }
+
+    });
+
+    // Show Patrick Ewing pic on click
+    $("#ewing-btn").click(function(){
+
+        if ( $('#center-1').hasClass('empty') ) {
+
+            $(this).toggleClass('btn-success');
+
+        } else if ($('#center-1').hasClass('ewing') ) {
+
+            $(this).toggleClass('btn-success');
+
+        }
+            
+        if ( $(this).hasClass('btn-success') ) {
+
+            if ( $('#center-1').hasClass('empty') ) {
+
+                $('#center-1').html('<img src="nbaAllstars/layout/assets/images/players/patrick-ewing.png" id="ewing-pic" class="players-pics">');
+                $('#center-1').removeClass('empty');
+                $('#center-1').addClass('full');
+                $('#center-1').addClass('ewing');
+
+            } 
+        
+        } else if ( $(this).hasClass('btn-primary') ) {
+
+            if ( $('#center-1').hasClass('full') && $('#center-1').hasClass('ewing') ) {
+
+                $('#ewing-pic').hide();
+                $('#center-1').removeClass('full');
+                $('#center-1').removeClass('ewing');
+                $('#center-1').addClass('empty');
+
+            } 
+
+        }
+
+    });
+
+
 
 }
