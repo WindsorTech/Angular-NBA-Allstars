@@ -157,13 +157,15 @@ h4 {
 	#game {
 		width: 95%;
 		margin: auto;
-		
 	}
 
 	#court {
 		width: 95%;
-		margin: auto;
-		
+		margin: auto;	
+	}
+
+	.player-list {
+		width: 100%;
 	}
 
 }
