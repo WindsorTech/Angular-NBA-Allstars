@@ -164,6 +164,11 @@ h4 {
 		margin: auto;	
 	}
 
+	.nav-pills {
+		width: 90%;
+		margin: auto;
+	}
+
 	.player-list {
 		width: 100%;
 	}
