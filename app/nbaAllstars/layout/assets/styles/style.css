@@ -155,10 +155,14 @@ h4 {
 	}
 
 	.game {
-		width: 80%;
+		width: 95%;
 		margin: auto;
 	}
 
+	.court {
+		width: 95%;
+		margin: auto;
+	}
 
 }
 
