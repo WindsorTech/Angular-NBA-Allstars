@@ -157,11 +157,13 @@ h4 {
 	.game {
 		width: 95%;
 		margin: auto;
+		float: none;
 	}
 
 	.court {
 		width: 95%;
 		margin: auto;
+		float: none;
 	}
 
 }
