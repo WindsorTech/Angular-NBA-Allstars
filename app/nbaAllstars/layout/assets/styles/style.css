@@ -174,8 +174,9 @@ h4 {
 		margin: auto;
 	}
 
-	.nav-item a {
-		text-align: center;
+	.players-list {
+		display: block;
+		margin: auto;
 	}
 
 	.btn {
