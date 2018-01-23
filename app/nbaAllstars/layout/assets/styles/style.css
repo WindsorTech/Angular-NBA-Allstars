@@ -172,6 +172,9 @@ h4 {
 	.nav-item {
 		width: 80%;
 		margin: auto;
+	}
+
+	.nav-item a {
 		text-align: center;
 	}
 
