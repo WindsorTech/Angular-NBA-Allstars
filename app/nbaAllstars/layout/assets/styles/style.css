@@ -153,6 +153,9 @@ h4 {
 	.container {
 		margin-top: 10px;
 		width: 100%;
+		display: flex;
+  		justify-content: center;
+  		align-items: center
 	}
 
 	#nba-allstar-logo {
@@ -176,11 +179,6 @@ h4 {
 
 	.btn {
 		width: 120%;
-	}
-
-	ul {
-		width: 80%;
-		margin: auto;
 	}
 
 }
