@@ -175,6 +175,7 @@ h4 {
 	}
 
 	.player-list {
+		width: 70%;
 		display: block;
 		margin: auto;
 	}
