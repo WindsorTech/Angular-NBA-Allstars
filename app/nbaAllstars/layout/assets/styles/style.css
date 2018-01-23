@@ -178,8 +178,8 @@ h4 {
 		width: 120%;
 	}
 
-	.guards-list .centers-list .fowards-list {
-		width: 90%;
+	ul {
+		width: 80%;
 		margin: auto;
 	}
 
@@ -187,27 +187,3 @@ h4 {
 
 
 @media only screen and (min-width: 481px) and (max-width: 853px) {}
-
-
-/*=========BASKETBALL COURT=================*/
-/*==========================================*/
-.shot-chart-court *{
-    fill:transparent;
-    stroke:#333;
-    stroke-width:0.1
-}
-.shot-chart-court-ft-circle-bottom{
-    stroke-dasharray:1.5, 1
-}
-.shot-chart-court-hoop,.shot-chart-court-backboard{
-    z-index:100
-}
-.shot-chart-title{
-    font-size:15%;
-    text-transform:uppercase
-}
-.legend text{
-    font-size:4%
-}
-/*==========================================*/
-/*==========================================*/
