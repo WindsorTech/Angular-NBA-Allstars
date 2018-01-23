@@ -172,6 +172,7 @@ h4 {
 	.nav-item {
 		width: 80%;
 		margin: auto;
+		text-align: center;
 	}
 
 	.btn {
