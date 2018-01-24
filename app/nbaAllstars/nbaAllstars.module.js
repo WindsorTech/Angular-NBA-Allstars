@@ -6,9 +6,7 @@ angular
         'ui.router',
 
         // Features - States
-        'nbaAllstars.guards'
-        //'nbaAllstars.forwards',
-        //'nbaAllstars.centers'
+        'nbaAllstars.game'     
         
     ])
     .config(appConfig);
@@ -16,5 +14,5 @@ angular
 function appConfig($urlRouterProvider) {
 
     // Direct the app the a page (state)
-    $urlRouterProvider.otherwise('/guards');
+    $urlRouterProvider.otherwise('/game');
 }

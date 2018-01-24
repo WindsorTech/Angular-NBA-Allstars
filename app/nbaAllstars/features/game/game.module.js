@@ -1,4 +1,4 @@
-angular.module('nbaAllstars.guards', [
+angular.module('nbaAllstars.game', [
 
 	'nbaAllstars.component.nbaPlayer'
     

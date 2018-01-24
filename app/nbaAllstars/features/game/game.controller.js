@@ -1,8 +1,8 @@
 angular
-    .module('nbaAllstars.guards') 
-    .controller('GuardsCtrl', GuardsCtrl);
+    .module('nbaAllstars.game') 
+    .controller('GameCtrl', GameCtrl);
 
-function GuardsCtrl() {
+function GameCtrl() {
     var vm = this; 
 
     // Start screen showing Guards list
