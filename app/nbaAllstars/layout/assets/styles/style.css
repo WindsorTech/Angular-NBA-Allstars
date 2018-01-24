@@ -156,13 +156,18 @@ h4 {
 	}
 
 	#game {
-		width: 95%;
+		width: 100%;
 		margin: auto;
 	}
 
 	#court {
-		width: 95%;
+		width: 100%;
 		margin: auto;	
+	}
+
+	.court-image {
+		display: block;
+		margin: auto;
 	}
 
 	hr {
@@ -188,19 +193,11 @@ h4 {
 		margin: auto;
 	}
 
-	#guards-list {
-		width: 100%;
-		margin: auto;
-	}
-
 	.player-list {
-		width: 100%;
-		margin-left: 0px;
+		width: 110%;
 	}
 
-	.btn {
-		width: 100%;
-	}
+	
 
 }
 
