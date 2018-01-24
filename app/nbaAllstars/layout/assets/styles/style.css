@@ -172,6 +172,7 @@ h4 {
 	#game {
 		width: 100%;
 		margin: auto;
+		text-align: center;
 	}
 
 	#court {
@@ -218,9 +219,6 @@ h4 {
 		margin-bottom: 10px;
 	}
 
-	.btn {
-		width: 90%;
-	}
 
 	
 
