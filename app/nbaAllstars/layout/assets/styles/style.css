@@ -188,12 +188,18 @@ h4 {
 		margin: auto;
 	}
 
+	#guards-list {
+		width: 100%;
+		margin: auto;
+	}
+
 	.player-list {
+		width: 100%;
 		margin-left: 0px;
 	}
 
 	.btn {
-		width: 130%;
+		width: 100%;
 	}
 
 }
