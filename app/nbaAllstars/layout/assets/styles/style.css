@@ -182,14 +182,11 @@ h4 {
 		margin: auto;
 	}
 
-	.player-list {
-		width: 70%;
-		display: block;
-		margin: auto;
-	}
 
 	.btn {
 		width: 120%;
+		display: block;
+		margin: auto;
 	}
 
 }
