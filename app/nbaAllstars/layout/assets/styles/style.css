@@ -229,6 +229,48 @@ h4 {
 		margin-right: auto;
 	}
 
+	.players-pics {
+		width: 40%;
+	}
+
+	#guard-1 {
+		margin-top: -235px;
+		margin-left: 20px;
+		position: absolute;
+		float: left;
+	}
+
+	#guard-2 {
+		width: 59%;
+		margin-top: -235px;
+		margin-right: -105px;
+		position: relative;
+		float: right;
+	}
+
+	#forward-1 {
+		margin-top: -90px;
+		margin-left: 35px;
+		position: absolute;
+		float: left;
+	}
+
+	#forward-2 {
+		width: 59%;
+		margin-top: -90px;
+		margin-right: -90px;
+		position: relative;
+		float: right;
+	}
+
+
+	#center-1 {
+		width: 59%;
+		margin-top: -160px;
+		margin-left: 132px;
+		position: relative;
+		float: left;
+	}
 
 	
 
