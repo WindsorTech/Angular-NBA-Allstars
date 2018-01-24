@@ -37,9 +37,16 @@
 	color: #446E9B; /*#9ea0a3;*/	
 }
 
-hr {
+.top-hr {
 	background-color: #446E9B;
 	width: 70%;
+	height: 0.1px;
+}
+
+.bottom-hr {
+	background-color: #446E9B;
+	width: 60%;
+	height: 0.2px;
 }
 
 h2 {
@@ -66,6 +73,7 @@ h4 {
 	background: white;
 }
 
+
 .nav-pills {
 	width: 70%;
     margin: auto;
@@ -73,6 +81,12 @@ h4 {
 	font-family: 'Bungee', cursive;
 	font-size: 18px;
 	color: #446E9B;
+}
+
+.nav-item {
+	margin: auto;
+	display: block;
+	text-align: center;
 }
 
 .nav-item a.active:hover { 
@@ -97,9 +111,17 @@ h4 {
 
 .player-list {
 	display: block;
-	margin: auto;
+	margin-left: auto;
+	margin-right: auto;
 	width: 75%;
 	margin-top: 10px;
+}
+
+.btn {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	
 }
 
 .players-pics {
