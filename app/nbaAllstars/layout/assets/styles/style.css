@@ -178,16 +178,13 @@ h4 {
 		margin: auto;
 	}
 
-	#guards-list {
-		width: 90%;
-		display: block;
-		margin: auto;
-	}
-
 	.btn {
 		width: 120%;
 	}
 
+	.player-list {
+		margin-left: 0px;
+	}
 }
 
 
