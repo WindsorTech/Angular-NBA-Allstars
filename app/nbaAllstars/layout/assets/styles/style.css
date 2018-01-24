@@ -178,7 +178,8 @@ h4 {
 		margin: auto;
 	}
 
-	.guards-list {
+	#guards-list {
+		
 		display: block;
 		margin: auto;
 	}
