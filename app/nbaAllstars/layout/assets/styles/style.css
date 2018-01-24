@@ -2,6 +2,7 @@
 	float: left;
 	width: 50%;
 	margin-top: 20px;
+	text-align: center;
 }
 
 #nba-allstar-logo {
@@ -29,6 +30,7 @@
 	font-size: 19px;
 	font-family: 'Ubuntu', sans-serif;
 	color: #8e8f91;
+	float: center;
 }
 
 .instructions {
@@ -94,7 +96,7 @@ h4 {
 }
 
 .btn-primary {
-	width: 80%;
+	width: 60%;
 	font-size: 20px;
 	font-family: 'Ubuntu', sans-serif;
 	margin-bottom: 5px;
@@ -102,7 +104,7 @@ h4 {
 }
 
 .btn-success {
-	width: 80%;
+	width: 60%;
 	font-size: 20px;
 	font-family: 'Ubuntu', sans-serif;
 	margin-bottom: 5px;
@@ -110,18 +112,8 @@ h4 {
 }
 
 .player-list {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 75%;
 	margin-top: 10px;
-}
-
-.btn {
-	width: 90%;
-	margin-left: auto;
-	margin-right: auto;
-	
+	width: 95%;
 }
 
 .players-pics {
