@@ -290,4 +290,119 @@ h4 {
 }
 
 
-@media only screen and (min-width: 481px) and (max-width: 853px) {}
+@media only screen and (min-width: 481px) and (max-width: 853px) {
+	
+	.container {
+		margin-top: 10px;
+		margin-bottom: 10px;
+		width: 100%;
+		overflow: hidden;
+	}
+
+
+	#game {
+		width: 100%;
+		margin: auto;
+		text-align: center;
+	}
+
+	#court {
+		width: 100%;
+		margin: auto;	
+	}
+
+	.court-image {
+		display: block;
+		margin: auto;
+	}
+
+	h4 {
+		font-size: 16px;
+	}
+
+	.top-hr {
+		width: 100%;
+		height: 0.2px;
+	}
+
+	.bottom-hr {
+		width: 90%;
+		height: 0.2px;
+	}
+
+	.sub-title {
+		font-size: 20px;
+	}
+
+	.nav {
+		width: 100%;
+		margin: auto;
+	}
+
+	.nav-item {
+		width: 100%;
+		margin: auto;
+	}
+
+	.active {
+		width: 60%;
+		margin: auto;
+	}
+
+	.player-list {
+		margin-bottom: 10px;
+		width: 90%;
+	}
+
+	.btn {
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.players-pics {
+		width: 35%;
+	}
+
+	#guard-1 {
+		margin-top: -200px;
+		margin-left: 17px;
+		position: absolute;
+		float: left;
+	}
+
+	#guard-2 {
+		width: 69%;
+		margin-top: -200px;
+		margin-right: -115px;
+		position: relative;
+		float: right;
+	}
+
+	#forward-1 {
+		margin-top: -80px;
+		margin-left: 25px;
+		position: absolute;
+		float: left;
+	}
+
+	#forward-2 {
+		width: 69%;
+		margin-top: -80px;
+		margin-right: -103px;
+		position: relative;
+		float: right;
+	}
+
+
+	#center-1 {
+		width: 69%;
+		margin-top: -145px;
+		margin-left: 110px;
+		position: relative;
+		float: left;
+	}
+
+
+
+}
