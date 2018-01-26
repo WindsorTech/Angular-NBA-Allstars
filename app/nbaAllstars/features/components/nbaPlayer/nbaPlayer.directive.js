@@ -18,8 +18,10 @@ function NbaPlayer() {
 function NbaPlayerCtrl($scope) {
 	var vm = this;
 
+	// Hide FB Share button
 	$(".fb-share-button").hide();
 
+	// If all all 5 players are selected, show FB Share button
 	$(".btn").click(function(){
 
 		if ( $('#guard-1').hasClass('full') && $('#guard-2').hasClass('full') && $('#forward-1').hasClass('full') && $('#forward-2').hasClass('full') && $('#center-1').hasClass('full') ) {
@@ -32,8 +34,6 @@ function NbaPlayerCtrl($scope) {
 
 		}
 
-
 	});
 	
-
 }
