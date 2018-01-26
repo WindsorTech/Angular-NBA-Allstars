@@ -18,7 +18,7 @@ function NbaPlayer() {
 function NbaPlayerCtrl($scope) {
 	var vm = this;
 
-	//$(".fb-share-button").hide();
+	$(".fb-share-button").hide();
 	
 
 }
