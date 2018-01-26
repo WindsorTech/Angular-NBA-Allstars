@@ -2,8 +2,13 @@ angular
     .module('nbaAllstars.game') 
     .controller('GameCtrl', GameCtrl);
 
-function GameCtrl() {
+function GameCtrl($state) {
     var vm = this; 
+
+    // Reload the view
+    vm.reloadView = function() {
+       $state.reload();
+    }
 
     // Start screen showing Guards list
     $('#guards-list').show();
