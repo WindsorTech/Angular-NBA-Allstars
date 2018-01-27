@@ -283,9 +283,7 @@ h4 {
 
 	.facebook-button img {
 		width: 175px;
-	}
-
-	
+	}	
 
 }
 
@@ -318,21 +316,5 @@ h4 {
 		display: block;
 		margin: auto;
 	}
-
-	#forward-1 {
-		margin-top: -150px;
-		margin-left: 45px;
-		position: absolute;
-		float: left;
-	}
-
-	#forward-2 {
-		width: 35%;
-		margin-top: -150px;
-		margin-right: -20px;
-		position: relative;
-		float: right;
-	}	
-
 
 }
