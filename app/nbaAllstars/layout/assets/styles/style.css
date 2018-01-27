@@ -158,14 +158,14 @@ h4 {
 	float: left;
 }
 
-.fb-share-button {
+.facebook-button {
 	margin-top: -500px;
 	font-size: 22px;
 	font-family: 'Ubuntu', sans-serif;
 	color: white;
 }
 
-.fb-share-button img {
+.facebook-button img {
 	width: 250px;
 }
 
@@ -281,14 +281,14 @@ h4 {
 		float: left;
 	}
 
-	.fb-share-button {
+	.facebook-button {
 		margin-top: -275px;
 		font-size: 15px;
 		font-family: 'Ubuntu', sans-serif;
 		color: white;
 	}
 
-	.fb-share-button img {
+	.facebook-button img {
 		width: 175px;
 	}
 
