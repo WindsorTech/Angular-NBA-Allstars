@@ -69,13 +69,6 @@ h4 {
 	margin-bottom: 20px;
 }
 
-.well {
-	border-color: #446E9B;
-	border-width: 1.5px;
-	background: white;
-}
-
-
 .nav-pills {
 	width: 70%;
     margin: auto;
@@ -286,6 +279,7 @@ h4 {
 		font-size: 15px;
 		font-family: 'Ubuntu', sans-serif;
 		color: white;
+		float: left;
 	}
 
 	.facebook-button img {
