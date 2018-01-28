@@ -1,4 +1,4 @@
-## Angular-NBA-Allstars
+## Angular NBA Allstars
 
 ### InfoMedia Search is a complete full-stack application that gives the user the power to search the world's top websites, getting relevant information about music, movies, trending news and even animated GIFs. I'm always improving this App, let me know what other search services you would like to see on InfoMedia!
 
