@@ -1,0 +1,322 @@
+#game {
+	float: left;
+	width: 50%;
+	margin-top: 20px;
+	text-align: center;
+
+	#nba-allstar-logo {
+		margin: auto;
+		display: block;
+		width: 35%;
+	}
+
+	.title {
+		color: red;
+	}
+
+	.sub-title {
+		font-size: 20px;
+		font-family: 'Ubuntu', sans-serif;
+		color: #8e8f91;
+		float: center;
+	}
+
+	.instructions {
+		font-size: 18px;
+		font-family: 'Ubuntu', sans-serif;
+		color: #446E9B; /*#9ea0a3;*/	
+	}
+
+	.top-hr {
+		background-color: #446E9B;
+		width: 70%;
+		height: 0.1px;
+	}
+
+	.bottom-hr {
+		background-color: #446E9B;
+		width: 60%;
+		height: 0.2px;
+	}
+
+	h2 {
+		text-align: center;
+		font-family: 'Bungee', cursive;
+		font-size: 26px;
+		margin: auto;
+		color: #0000cc;
+	}
+
+	h4 {
+		text-align: center;
+		font-family: 'Montserrat', sans-serif;
+		font-size: 16.5px;
+		color: #505051; /*#A9A9A9; */
+		font-weight: 700;
+		margin-top: 3px;
+		margin-bottom: 20px;
+	}
+
+	.nav-pills {
+		width: 70%;
+    	margin: auto;
+		text-align: center;
+		font-family: 'Bungee', cursive;
+		font-size: 18px;
+		color: #446E9B;
+	}
+
+	.nav-item {
+		margin: auto;
+		display: block;
+		text-align: center;
+	}
+
+	.nav-item a.active:hover { 
+		color: white;
+	}
+
+	.btn-primary {
+		width: 60%;
+		font-size: 20px;
+		font-family: 'Ubuntu', sans-serif;
+		margin-bottom: 5px;
+		color: white;
+	}
+
+	.btn-success {
+		width: 60%;
+		font-size: 20px;
+		font-family: 'Ubuntu', sans-serif;
+		margin-bottom: 5px;
+		color: white;
+	}
+
+	.player-list {
+		margin-top: 10px;
+		width: 95%;
+	}
+}
+
+#court {
+	float: right;
+	width: 50%;
+	margin-top: 20px;
+
+	.court-image {
+		width: 98%;
+		margin-top: 20px;
+	}
+
+	.players-pics {
+		width: 60%;
+	}
+
+	#guard-1 {
+		margin-top: -365px;
+		margin-left: 20px;
+		position: absolute;
+		float: left;
+	}
+
+	#guard-2 {
+		width: 35%;
+		margin-top: -365px;
+		margin-right: -45px;
+		position: relative;
+		float: right;
+	}
+
+	#forward-1 {
+		margin-top: -130px;
+		margin-left: 45px;
+		position: absolute;
+		float: left;
+	}
+
+	#forward-2 {
+		width: 35%;
+		margin-top: -130px;
+		margin-right: -20px;
+		position: relative;
+		float: right;
+	}
+
+	#center-1 {
+		width: 35%;
+		margin-top: -250px;
+		margin-left: 214px;
+		position: relative;
+		float: left;
+	}
+
+	.facebook-button {
+		margin-top: -500px;
+		font-size: 22px;
+		font-family: 'Ubuntu', sans-serif;
+		color: white;
+
+		img {
+			width: 250px;
+		}
+}
+
+}
+
+@media only screen and (max-width: 480px) {
+	
+.container {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 100%;
+	overflow: hidden;
+}
+
+#game {
+	width: 100%;
+	margin: auto;
+	text-align: center;
+
+	#nba-allstar-logo {
+		width: 65%;
+	}
+
+	h4 {
+		font-size: 16px;
+	}
+
+	.top-hr {
+		width: 100%;
+		height: 0.2px;
+	}
+
+	.bottom-hr {
+		width: 90%;
+		height: 0.2px;
+	}
+
+	.nav {
+		width: 100%;
+		margin: auto;
+	}
+
+	.nav-item {
+		width: 100%;
+		margin: auto;
+	}
+
+	.active {
+		width: 60%;
+		margin: auto;
+	}
+
+	.player-list {
+		margin-bottom: 10px;
+		width: 90%;
+	}
+
+	.btn {
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+
+}
+
+#court {
+	width: 100%;
+	margin: auto;	
+
+	.court-image {
+		display: block;
+		margin: auto;
+	}
+
+	.players-pics {
+		width: 35%;
+	}
+
+	#guard-1 {
+		margin-top: -200px;
+		margin-left: 17px;
+		position: absolute;
+		float: left;
+	}
+
+	#guard-2 {
+		width: 69%;
+		margin-top: -200px;
+		margin-right: -115px;
+		position: relative;
+		float: right;
+	}
+
+	#forward-1 {
+		margin-top: -80px;
+		margin-left: 25px;
+		position: absolute;
+		float: left;
+	}
+
+	#forward-2 {
+		width: 69%;
+		margin-top: -80px;
+		margin-right: -103px;
+		position: relative;
+		float: right;
+	}
+
+	#center-1 {
+		width: 69%;
+		margin-top: -145px;
+		margin-left: 110px;
+		position: relative;
+		float: left;
+	}
+
+	.facebook-button {
+		margin-top: -275px;
+		font-size: 15px;
+		font-family: 'Ubuntu', sans-serif;
+		color: white;
+
+		img {
+			width: 175px;
+		}
+	}	
+
+}
+
+}
+
+@media only screen and (min-width: 481px) and (max-width: 853px) {
+	
+.container {
+		margin-top: 10px;
+		margin-bottom: 10px;
+		width: 100%;
+		overflow: hidden;
+}
+
+#game {
+		width: 100%;
+		margin: auto;
+		text-align: center;
+
+		h4 {
+			font-size: 16px;
+		}
+}
+
+#court {
+		width: 100%;
+		margin: auto;	
+
+		.court-image {
+			display: block;
+			margin: auto;
+		}
+}
+
+}
