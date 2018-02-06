@@ -1,0 +1,169 @@
+svg {
+	width: 50%;
+}
+
+#game {
+	float: left;
+	width: 50%;
+	margin-top: 20px;
+}
+
+#nba-allstar-logo {
+	margin: auto;
+	display: block;
+	width: 35%;
+}
+
+#court {
+	float: right;
+	width: 50%;
+	margin-top: 20px;
+}
+
+.court-image {
+	width: 98%;
+	margin-top: 20px;
+}
+
+.title {
+	color: red;
+}
+
+.sub-title {
+	font-size: 19px;
+	font-family: 'Ubuntu', sans-serif;
+	color: #8e8f91;
+}
+
+.instructions {
+	font-size: 18px;
+	font-family: 'Ubuntu', sans-serif;
+	color: #446E9B; /*#9ea0a3;*/	
+}
+
+hr {
+	background-color: #446E9B;
+	width: 70%;
+}
+
+h2 {
+	text-align: center;
+	font-family: 'Bungee', cursive;
+	font-size: 26px;
+	margin: auto;
+	color: #0000cc;
+}
+
+h4 {
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16.5px;
+	color: #505051; /*#A9A9A9; */
+	font-weight: 700;
+	margin-top: 3px;
+	margin-bottom: 20px;
+}
+
+.well {
+	border-color: #446E9B;
+	border-width: 1.5px;
+	background: white;
+}
+
+
+.nav-pills {
+	width: 70%;
+    margin: auto;
+	text-align: center;
+	font-family: 'Bungee', cursive;
+	font-size: 18px;
+	color: #446E9B;
+}
+
+.nav-link {
+	color: #446E9B;	
+}
+
+.btn-primary {
+	width: 80%;
+	font-size: 20px;
+	font-family: 'Ubuntu', sans-serif;
+	margin-bottom: 5px;
+	color: white;
+}
+
+.btn-success {
+	width: 80%;
+	font-size: 20px;
+	font-family: 'Ubuntu', sans-serif;
+	margin-bottom: 5px;
+	color: white;
+}
+
+.player-list {
+	display: block;
+	margin: auto;
+	width: 75%;
+	margin-top: 10px;
+}
+
+.players-pics {
+	width: 45%;
+}
+
+#guard-1 {
+	margin-top: -100px;
+	margin-left: 30px;
+	position: absolute;
+}
+
+#guard-2 {
+	width: 35%;
+	margin-top: -300px;
+	margin-left: 430px;
+	position: relative;
+}
+
+#forward-1 {
+	margin-top: 190px;
+	margin-left: 60px;
+	position: absolute;
+}
+
+#forward-2 {
+	width: 35%;
+	margin-top: 190px;
+	margin-left: 395px;
+	position: relative;
+}
+
+#center-1 {
+	width: 35%;
+	margin-top: -200px;
+	margin-left: 230px;
+	position: relative;
+}
+
+
+/*=========BASKETBALL COURT=================*/
+/*==========================================*/
+.shot-chart-court *{
+    fill:transparent;
+    stroke:#333;
+    stroke-width:0.1
+}
+.shot-chart-court-ft-circle-bottom{
+    stroke-dasharray:1.5, 1
+}
+.shot-chart-court-hoop,.shot-chart-court-backboard{
+    z-index:100
+}
+.shot-chart-title{
+    font-size:15%;
+    text-transform:uppercase
+}
+.legend text{
+    font-size:4%
+}
+/*==========================================*/
+/*==========================================*/

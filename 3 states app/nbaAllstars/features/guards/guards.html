@@ -1,0 +1,51 @@
+<div class="container">
+
+	<div id="game">
+		<h2>ANGULAR<h2>
+		<img src="nbaAllstars/layout/assets/images/nba-logo.jpg" id="nba-allstar-logo">
+		<h2 class="title">ALL-STARS</h2>
+		<h4>by WindsorTech</h4>
+
+		<p class="sub-title" align="center">You are the coach!</p>
+		<p class="sub-title" align="center">Choose the players of your team:</p>
+
+		<hr>
+
+		<ul class="nav nav-pills">
+		  <li class="nav-item">
+		    <a class="nav-link active" ui-sref="guards">Guards</a>
+		  </li>
+
+		  <li class="nav-item">
+		    <a class="nav-link" ui-sref="forwards">Forwards</a>
+		  </li>
+
+		  <li class="nav-item">
+		    <a class="nav-link" ui-sref="centers">Centers</a>
+		  </li>
+
+		</ul>
+
+		<p class="instructions" align="center">Select 2 Guards</p>
+
+		<ul class="player-list">
+		  <input type="button" value="Michael Jordan" class="btn btn-primary" id="jordan-btn">
+		<br>
+		  <input type="button" value="Kobe Bryant" class="btn btn-primary" id="bryant-btn">
+		<br>
+		  <input type="button" value="Magic Johnson" class="btn btn-primary" id="johnson-btn">
+		<br>
+		  <input type="button" value="Stephen Curry" class="btn btn-primary" id="curry-btn">
+		<br>
+		  <input type="button" value="Isiah Thomas" class="btn btn-primary" id="thomas-btn">
+		</ul>
+		 
+	</div>
+
+	<div id="court">
+		
+		<nba-player nba-data="nbaData"></nba-player>
+
+	</div>
+
+</div>
