@@ -1,0 +1,51 @@
+<div class="container">
+
+	<div id="game">
+		<h2>ANGULAR<h2>
+		<img src="nbaAllstars/layout/assets/images/nba-logo.jpg" id="nba-allstar-logo">
+		<h2 class="title">ALL-STARS</h2>
+		<h4>by WindsorTech</h4>
+
+		<p class="sub-title" align="center">You are the coach!</p>
+		<p class="sub-title" align="center">Choose the players of your team:</p>
+
+		<hr>
+
+		<ul class="nav nav-pills">
+		  <li class="nav-item">
+		    <a class="nav-link" ui-sref="guards">Guards</a>
+		  </li>
+
+		  <li class="nav-item">
+		    <a class="nav-link" ui-sref="forwards">Forwards</a>
+		  </li>
+
+		  <li class="nav-item">
+		    <a class="nav-link active" ui-sref="centers">Centers</a>
+		  </li>
+
+		</ul>
+
+		<p class="instructions" align="center">Select 1 Center</p>
+
+		<ul class="player-list">
+		  <input type="button" value="Bill Russell" class="btn btn-primary" id="russell-btn">
+		<br>
+		  <input type="button" value="Kareem Abdul-Jabbar" class="btn btn-primary" id="jabbar-btn">
+		<br>
+		  <input type="button" value="Shaquille O'Neal" class="btn btn-primary" id="oneal-btn">
+		<br>
+		  <input type="button" value="Wilt Chamberlain" class="btn btn-primary" id="chamberlain-btn">
+		<br>
+		  <input type="button" value="Patrick Ewing" class="btn btn-primary" id="ewing-btn">
+		</ul>
+		 
+	</div>
+
+	<div id="court">
+		
+		<nba-player></nba-player>
+
+	</div>
+
+</div>
